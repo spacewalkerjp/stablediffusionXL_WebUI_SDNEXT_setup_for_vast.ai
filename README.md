@@ -59,6 +59,10 @@ deactivate
 # if you want to download old SD checkpoint(model), select `y(yes)`
 
 ```
+* access test with your local PC's web browser
+   * http://localhost:7860
+   * Can you access webui(SD.Next)?
+* the next step is install SDXL model.
 
 7. Agree and get the access token for SDXL model from Hugging Face
 
