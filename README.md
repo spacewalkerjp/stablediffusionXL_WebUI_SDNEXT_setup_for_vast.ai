@@ -18,7 +18,8 @@ Stable Diffusion XL WebUI(SD.NEXT) setup for vast.ai
    * `Checked` : Use direct SSH connection - faster than proxy, but limited to machines with open ports. Proxy ssh still available as backup.
 * GPU Type :
    *  `Interruptible` and `On-Demand` : both OK
-   *  #GPUs : `1X` (if the instance has multi GPUs, the current version of Stable Diffusion uses only 1X GPU.) 
+   *  #GPUs : `1X` (if the instance has multi GPUs, the current version of Stable Diffusion uses only 1X GPU.)
+   *  Recommend GPU : 4090, 4080, 3090 (24GB GPU Mem)
 
 # Setup procedures
 1. Start a instance based on the above `Instance configuration`.
