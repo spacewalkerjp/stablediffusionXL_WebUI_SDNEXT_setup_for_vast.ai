@@ -67,7 +67,7 @@ cd automatic
    * https://huggingface.co/stabilityai/stable-diffusion-xl-base-0.9
    * https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-0.9
 * get the access token from huggingface
-   * https://huggingface.co/settings/tokens`
+   * https://huggingface.co/settings/tokens
 8. Download SDXL model from SD.Next(WebUI)
 * http://localhost:7860
 * `Models` tab on the top menu
