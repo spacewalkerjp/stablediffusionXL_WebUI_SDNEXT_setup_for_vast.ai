@@ -82,12 +82,12 @@ deactivate
    * 1a) seach models : `sdxl`
    * 2a) select model : `stabilityai/stable-diffusion-xl-base-0.9`
    * 3a) Huggingface toke : `YOUR TOKEN` of step.7
-   * 4a) `Download model`
+   * 4a) click `Download model` button
    * (wait until finishing download) 
    * 1b) seach models : `sdxl`
    * 2b) select model : `stabilityai/stable-diffusion-xl-refiner-0.9`
    * 3b) Huggingface toke : `YOUR TOKEN` of step.7
-   * 4b) `Download model`
+   * 4b) click `Download model` button
    * (wait until finishing download)
 
 9. Setting the SDXL refiner model
