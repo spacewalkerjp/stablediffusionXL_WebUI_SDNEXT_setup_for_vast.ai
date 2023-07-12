@@ -2,6 +2,7 @@
 Stable Diffusion XL WebUI(SD.NEXT) setup for vast.ai
 * 2023/07/12 ver : SDXL 0.9
 * GPU sharing cloud service `Vast.ai` : https://cloud.vast.ai/
+* * You need NOT install an expensive GPU into your local PC. 
 
 # Preparation
 1) Setup your local PC(Windows, macOS, Linux,...)'s SSH client setting. Generate a `SSH keypair(private key & public key)` for remote access.
