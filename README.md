@@ -1,5 +1,6 @@
 # Setup Stable Diffusion XL WebUI(SD.Next) for_vast.ai
 Stable Diffusion XL WebUI(SD.NEXT) setup for vast.ai
+* 2023/07/12 ver : SDXL 0.9
 * GPU sharing cloud service `Vast.ai` : https://cloud.vast.ai/
 
 # Preparation
