@@ -91,6 +91,15 @@ cd automatic
 10. Have fun!
 
 
+
+# Download the outputs from the instance to local PC.
+
+Execute from your Local PC's terminal
+```sh
+scp -r -P XXXXX root@AAA.BBB.CCC.DDD:/home/user1/automatic/outputs ./outputs/
+```
+
+
 # Ref. ( &Special thanks)
 * https://cloud.vast.ai
 * https://github.com/vladmandic/automatic
