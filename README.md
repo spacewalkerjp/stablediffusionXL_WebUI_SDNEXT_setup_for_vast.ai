@@ -52,13 +52,11 @@ cd automatic
 ./webui.sh --backend diffusers
 
 # if you encount the error `ImportError: cannot import name 'deprecated' from 'typing_extensions'`
-# source venv/bin/activate
-# pip install -U typing-extensions==4.6.3
-# deactivate
+source venv/bin/activate
+pip install -U typing-extensions==4.6.3
+deactivate
 
 # if you want to download old SD checkpoint(model), select `y(yes)`
-
-
 
 ```
 
