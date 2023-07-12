@@ -64,12 +64,13 @@ deactivate
    * Can you access webui(SD.Next)?
 * the next step is install SDXL model.
 
-7. Agree and get the access token for SDXL model from Hugging Face
+7. Agree and get the access token for SDXL model (license) from Hugging Face
 
-* apply the early access for SDXL model of StabilityAI
+* Apply the early access for SDXL model of StabilityAI
    * https://huggingface.co/stabilityai/stable-diffusion-xl-base-0.9
    * https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-0.9
-* get the access token from huggingface
+   * (wait a few days)
+* Get the access token from huggingface
    * https://huggingface.co/settings/tokens
  
   
