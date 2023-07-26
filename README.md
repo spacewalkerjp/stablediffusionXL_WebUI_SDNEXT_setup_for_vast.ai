@@ -1,6 +1,6 @@
 # Setup Stable Diffusion XL WebUI(SD.Next) for_vast.ai
 Stable Diffusion XL WebUI(SD.NEXT) setup for vast.ai
-* 2023/07/12 ver : SDXL 0.9
+* 2023/07/27 ver : SDXL 1.0
 * GPU sharing cloud service `Vast.ai` : https://cloud.vast.ai/
 * * You need NOT install an expensive GPU into your local PC. 
 
@@ -21,7 +21,7 @@ Stable Diffusion XL WebUI(SD.NEXT) setup for vast.ai
 * GPU Type :
    *  `Interruptible` and `On-Demand` : both OK
    *  #GPUs : `1X` (if the instance has multi GPUs, the current version of Stable Diffusion uses only 1X GPU.)
-   *  Recommend GPU : 4090, 4080, 3090 (24GB GPU Mem) for SDXL ver 0.9 
+   *  Recommend GPU : 4090, 4080, 3090 (24GB GPU Mem) for SDXL ver 1.0 
 
 # Setup procedures
 1. Start a instance based on the above `Instance configuration`.
@@ -65,29 +65,17 @@ deactivate
    * http://localhost:7860
    * Can you access webui(SD.Next)?
 * the next step is install SDXL model.
-
-7. Agree and get the access token for SDXL model (license) from Hugging Face
-
-* Apply the early access for SDXL model of StabilityAI
-   * https://huggingface.co/stabilityai/stable-diffusion-xl-base-0.9
-   * https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-0.9
-   * (wait a few days)
-* Get the access token from huggingface
-   * https://huggingface.co/settings/tokens
- 
   
-8. Download SDXL model from SD.Next(WebUI)
+7. Download SDXL model from SD.Next(WebUI)
 * http://localhost:7860
 * `Models` tab on the top menu
 * `Huggingface` tab on the sub menu of `Models` tab
    * 1a) seach models : `sdxl`
-   * 2a) select model : `stabilityai/stable-diffusion-xl-base-0.9`
-   * 3a) Huggingface toke : `YOUR TOKEN` of step.7
+   * 2a) select model : `stabilityai/stable-diffusion-xl-base-1.0`
    * 4a) click `Download model` button
    * (wait until finishing download) 
    * 1b) seach models : `sdxl`
-   * 2b) select model : `stabilityai/stable-diffusion-xl-refiner-0.9`
-   * 3b) Huggingface toke : `YOUR TOKEN` of step.7
+   * 2b) select model : `stabilityai/stable-diffusion-xl-refiner-1.0`
    * 4b) click `Download model` button
    * (wait until finishing download)
 
