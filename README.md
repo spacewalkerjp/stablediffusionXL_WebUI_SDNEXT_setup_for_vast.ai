@@ -79,12 +79,27 @@ deactivate
    * 4b) click `Download model` button
    * (wait until finishing download)
 
-9. Setting the SDXL refiner model
+8. Setting the SDXL refiner model
 * `Settings` tab on the top menu
 * `User interface`
 * add `sd_model_refiner` into `Quicksettings list`.
 * Apply setting
 * Restart server
+
+9. Download VAE 
+```sh
+cd ~
+cd automatic
+cd models
+mkdir VAE
+cd VAE
+wget https://huggingface.co/stabilityai/sdxl-vae/resolve/main/sdxl_vae.safetensors
+cd ~/automatic
+./webui.sh --backend diffusers
+```
+
+* (webui) Settins -> Stable Diffusion -> Select VAE
+
 
 10. Have fun!
 
